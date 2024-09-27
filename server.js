@@ -13,8 +13,8 @@ app.use(express.json());
 const userRoutes = require("./routes/Users");
 const showRoutes = require("./routes/Shows");
 
-app.use("/api/users", userRoutes);
-app.use("/api/shows", showRoutes);
+app.use("/users", userRoutes);
+app.use("/shows", showRoutes);
 
 // Start server and seed database
 const startServer = async () => {
