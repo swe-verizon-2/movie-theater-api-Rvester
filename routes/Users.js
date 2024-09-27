@@ -1,7 +1,7 @@
 // routes/users.js
 const express = require("express");
-const { User, Show } = require("../models/index"); // Adjust the path if needed
 const router = express.Router();
+const { User, Show } = require("../models/index"); // Adjust the path if needed
 
 // GET all users
 router.get("/", async (req, res) => {

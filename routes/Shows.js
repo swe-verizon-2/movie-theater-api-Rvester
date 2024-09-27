@@ -1,7 +1,7 @@
 // routes/shows.js
 const express = require("express");
-const { Show, User } = require("../models/index"); // Adjust the path if needed
 const router = express.Router();
+const { Show, User } = require("../models/index"); // Adjust the path if needed
 
 // GET all shows
 router.get("/", async (req, res) => {
