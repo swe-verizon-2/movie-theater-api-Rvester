@@ -10,8 +10,8 @@ const PORT = 3000;
 app.use(express.json());
 
 // Include routers
-const userRoutes = require("./routes/users");
-const showRoutes = require("./routes/shows");
+const userRoutes = require("./routes/Users");
+const showRoutes = require("./routes/Shows");
 
 app.use("/api/users", userRoutes);
 app.use("/api/shows", showRoutes);
