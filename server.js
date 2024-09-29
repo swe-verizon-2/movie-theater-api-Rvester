@@ -1,7 +1,7 @@
 // server.js
 const express = require("express");
-const { db } = require("./db/connection"); // Adjust the path if needed
-const seed = require("./db/seed"); // Make sure this imports your seed function
+const { db } = require("./db/connection");
+const seed = require("./db/seed");
 
 const app = express();
 const PORT = 3000;
